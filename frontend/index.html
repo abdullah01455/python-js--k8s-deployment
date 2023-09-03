@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lean DRE Scripts</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    #button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #logo {
+    max-width:100%;
+    height:auto;
+    padding-right: auto;
+    padding-bottom: 50px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+   <div id="logo">
+        <img src="./Lean-Logo.png"  width="60" height="100">
+   </div>
+  <h1>Lean DRE</h1>
+  <h2>Python DB Scripts</h2>
+  <div id="button-container">
+    <button id="button-1" class="button">VaccineDB Script</button>
+    <button id="button-2" class="button">SickLeaveDB Script</button>
+    <button id="button-3" class="button">Quarantine Script</button>
+    <button id="button-4" class="button">Indvisuals Script</button>
+    <button id="button-5" class="button">HealthyMarriageDB Script</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

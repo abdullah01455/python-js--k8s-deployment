@@ -1,0 +1,6 @@
+pymssql
+confluent_kafka
+flask
+flask_cors
+gunicorn
+kubernetes
